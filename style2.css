@@ -1,0 +1,116 @@
+* {
+  color: black;
+  margin: 0%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+  text-align: center;
+  padding: 10px;
+  font-size: 50px;
+  background-color: white;
+  color: black;
+  text-decoration: bold;
+  border: solid black 1px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: black;
+  text-decoration: none;
+}
+
+li {
+  color: black;
+  float: left;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  text-decoration: underline 1px ;
+}
+
+.blackBox {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  height: 100vh;
+  margin-bottom: 30px;
+}
+
+.mike {
+  color: white;
+  text-align: center;
+  font-size: 50vh;
+  font-weight: lighter;
+  margin: 10%;
+}
+
+.artBox {
+  padding: 0%;
+  margin: 0%;
+  margin-top: -100px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -300px;
+  object-fit: cover;
+  width: 800px;
+  height: 1200px;
+  rotate: 90deg;
+
+}
+
+.blackBox2 {
+  color: white;
+  background-color: black;
+  padding: 20px;
+  margin-top: 250px;
+  text-align: center;
+  height: 100vh;
+  margin-bottom: 30px;
+}
+
+.aboutArea {
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+#about {
+  font-size: 50px;
+  margin: 40px;
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  margin: 50px;
+  color: white;
+  text-align: center;
+}
+
+.backToTop {
+  font-size: 20px;
+  text-decoration: none;
+  margin: 70px;
+  color: white;
+  text-align: center;
+}
